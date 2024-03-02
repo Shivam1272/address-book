@@ -46,6 +46,35 @@ The Address Updater project is a user interface application designed to manage a
 - **Coding Standards and Security:** Best practices in coding standards and security principles are followed, with room for continuous improvement.
 - **Extensibility:** The project can be easily extended to include additional functionalities, demonstrating good software design principles.
 
+## Setup Instructions
+
+To set up the Address Updater project locally on your machine, follow these steps:
+
+1. **Clone the Repository**
+   - Open your terminal.
+   - Navigate to the directory where you want to clone the project.
+   - Run https://github.com/Shivam1272/address-book.git.
+   - Navigate into the cloned directory by `cd address-book`.
+
+2. **Set Up Backend**
+   - Ensure MongoDB is running on your machine. If not, download and install MongoDB [here](https://www.mongodb.com/try/download/community).
+   - Navigate to the backend directory: `cd server`.
+   - Install dependencies: `npm install`.
+   - Start the backend server: `npm start`. The backend server should now be running on `http://localhost:8000`.
+
+3. **Set Up Frontend**
+   - Open a new terminal tab or window.
+   - Navigate to the frontend directory from the project root: `cd client`.
+   - Install dependencies: `npm install`.
+   - Start the frontend application: `npm start`. Your default web browser should automatically open the application on `http://localhost:3000`.
+
+4. ** Set Environment**:
+   - Look .env.sample file in server folder for better understanding
+
+5. **Access the Application**
+   - With both the backend and frontend running, you can now use the Address Updater application through your web browser at `http://localhost:3000`.
+
+
 ## Recommendations for Improvement
 
 1. **Conflict Resolution:** Introduce optimistic locking or other conflict resolution strategies to handle concurrent edits.
